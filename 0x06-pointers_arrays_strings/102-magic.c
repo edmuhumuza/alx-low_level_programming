@@ -1,13 +1,5 @@
 #include <stdio.h>
 
-/*
- * main -Entry point
- *
- * Des- function of the prog
- *
- * Return: Always 0 (Success)
- */
-
 int main(void)
 {
 	int n;
