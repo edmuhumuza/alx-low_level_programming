@@ -5,9 +5,9 @@
  * File: 4-sum.h
  *
  * Desc: Header file that defines a function-like macro SUM(x, y)
- * that computes the sum of the numbers x and y.
- * @x is the first value
- * @y is the second value
+ * that computes the sum of the numbers.
+ *
+ * Return: Always 0 (success)
  */
 
 #define SUM(x, y) ((x) + (y))
