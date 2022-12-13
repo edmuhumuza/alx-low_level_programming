@@ -3,11 +3,16 @@
 /**
  * _memset - Entry point
  *
- * Desc: description of functin
+ * Desc: description of function
  *
- * Return Always 0
+ * Return: Always 0
  */
-void *_memset(void)
+char *_memset(char *s, char b, unsigned int n)
 {
-	return (0);
+    for (int i = 0; i < n; i++)
+    {
+        s[i] = b;
+    }
+    return s;
 }
+

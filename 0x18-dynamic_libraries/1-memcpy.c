@@ -5,9 +5,14 @@
  *
  * Desc: description of file
  *
- * Return always(0);
+ * Return: always(0);
  */
-void *_memcpy(void)
+char *_memcpy(char *dest, char *src, unsigned int n)
 {
-	return (0);
+    for (int i = 0; i < n; i++)
+    {
+        dest[i] = src[i];
+    }
+    return dest;
 }
+
